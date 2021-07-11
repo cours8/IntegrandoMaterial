@@ -1,0 +1,2 @@
+rootProject.name = "IntegrandoMaterial"
+include ':app'
