@@ -28,19 +28,19 @@
                 android:id="@+id/tab_imagen"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Imagen" />
+                android:text="@string/imagen" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tab_texto"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Texto" />
+                android:text="@string/texto" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tab_nada"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Nada" />
+                android:text="@string/nada" />
         </com.google.android.material.tabs.TabLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -59,7 +59,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text=""
                 android:visibility = "gone"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -70,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
+                android:contentDescription="@string/logo_descripcion"
                 app:srcCompat="@drawable/logo1"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -84,5 +85,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
+        android:contentDescription="@string/default_activity_button_description"
         android:src="@android:drawable/ic_menu_add" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

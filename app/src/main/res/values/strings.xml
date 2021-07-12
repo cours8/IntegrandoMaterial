@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IntegrandoMaterial</string>
+    <string name="imagen">Imagen</string>
+    <string name="texto">Texto</string>
+    <string name="nada">Nada</string>
+    <string name="logo_descripcion">Logo</string>
+    <string name="default_activity_button_description">Acción por defecto</string>
 </resources>
